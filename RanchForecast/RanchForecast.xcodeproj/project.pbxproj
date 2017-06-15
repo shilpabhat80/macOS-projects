@@ -1,0 +1,430 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BDEB501D1EA294640054F213 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDEB501C1EA294640054F213 /* AppDelegate.swift */; };
+		BDEB501F1EA294640054F213 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDEB501E1EA294640054F213 /* ViewController.swift */; };
+		BDEB50211EA294640054F213 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDEB50201EA294640054F213 /* Assets.xcassets */; };
+		BDEB50241EA294640054F213 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDEB50221EA294640054F213 /* Main.storyboard */; };
+		BDEB502C1EA295520054F213 /* Course.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDEB502B1EA295520054F213 /* Course.swift */; };
+		BDEB502E1EA299270054F213 /* ScheduleFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDEB502D1EA299270054F213 /* ScheduleFetcher.swift */; };
+		BDEB50381EA2B9C90054F213 /* RanchForecastTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDEB50371EA2B9C90054F213 /* RanchForecastTests.swift */; };
+		BDEB50421EA2BB2F0054F213 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDEB50401EA2BB1D0054F213 /* Constants.swift */; };
+		BDEB50451EA2BF510054F213 /* ScheduleFetcherTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDEB50441EA2BF510054F213 /* ScheduleFetcherTests.swift */; };
+		BDEB50471EA2BF6C0054F213 /* CourseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDEB50461EA2BF6C0054F213 /* CourseTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BDEB503A1EA2B9C90054F213 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BDEB50111EA294640054F213 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BDEB50181EA294640054F213;
+			remoteInfo = RanchForecast;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BDEB50191EA294640054F213 /* RanchForecast.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RanchForecast.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDEB501C1EA294640054F213 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BDEB501E1EA294640054F213 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BDEB50201EA294640054F213 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BDEB50231EA294640054F213 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BDEB50251EA294640054F213 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BDEB502B1EA295520054F213 /* Course.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Course.swift; sourceTree = "<group>"; };
+		BDEB502D1EA299270054F213 /* ScheduleFetcher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScheduleFetcher.swift; sourceTree = "<group>"; };
+		BDEB50351EA2B9C90054F213 /* RanchForecastTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RanchForecastTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDEB50371EA2B9C90054F213 /* RanchForecastTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RanchForecastTests.swift; sourceTree = "<group>"; };
+		BDEB50391EA2B9C90054F213 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BDEB50401EA2BB1D0054F213 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		BDEB50441EA2BF510054F213 /* ScheduleFetcherTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ScheduleFetcherTests.swift; path = RanchForecastTests/ScheduleFetcherTests.swift; sourceTree = SOURCE_ROOT; };
+		BDEB50461EA2BF6C0054F213 /* CourseTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CourseTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BDEB50161EA294640054F213 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDEB50321EA2B9C90054F213 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BDEB50101EA294640054F213 = {
+			isa = PBXGroup;
+			children = (
+				BDEB501B1EA294640054F213 /* RanchForecast */,
+				BDEB50361EA2B9C90054F213 /* RanchForecastTests */,
+				BDEB501A1EA294640054F213 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BDEB501A1EA294640054F213 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BDEB50191EA294640054F213 /* RanchForecast.app */,
+				BDEB50351EA2B9C90054F213 /* RanchForecastTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BDEB501B1EA294640054F213 /* RanchForecast */ = {
+			isa = PBXGroup;
+			children = (
+				BDEB501C1EA294640054F213 /* AppDelegate.swift */,
+				BDEB501E1EA294640054F213 /* ViewController.swift */,
+				BDEB50201EA294640054F213 /* Assets.xcassets */,
+				BDEB50221EA294640054F213 /* Main.storyboard */,
+				BDEB502B1EA295520054F213 /* Course.swift */,
+				BDEB502D1EA299270054F213 /* ScheduleFetcher.swift */,
+				BDEB50251EA294640054F213 /* Info.plist */,
+			);
+			path = RanchForecast;
+			sourceTree = "<group>";
+		};
+		BDEB50361EA2B9C90054F213 /* RanchForecastTests */ = {
+			isa = PBXGroup;
+			children = (
+				BDEB50371EA2B9C90054F213 /* RanchForecastTests.swift */,
+				BDEB50461EA2BF6C0054F213 /* CourseTests.swift */,
+				BDEB50401EA2BB1D0054F213 /* Constants.swift */,
+				BDEB50441EA2BF510054F213 /* ScheduleFetcherTests.swift */,
+				BDEB50391EA2B9C90054F213 /* Info.plist */,
+			);
+			path = RanchForecastTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BDEB50181EA294640054F213 /* RanchForecast */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDEB50281EA294640054F213 /* Build configuration list for PBXNativeTarget "RanchForecast" */;
+			buildPhases = (
+				BDEB50151EA294640054F213 /* Sources */,
+				BDEB50161EA294640054F213 /* Frameworks */,
+				BDEB50171EA294640054F213 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RanchForecast;
+			productName = RanchForecast;
+			productReference = BDEB50191EA294640054F213 /* RanchForecast.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BDEB50341EA2B9C90054F213 /* RanchForecastTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDEB503C1EA2B9C90054F213 /* Build configuration list for PBXNativeTarget "RanchForecastTests" */;
+			buildPhases = (
+				BDEB50311EA2B9C90054F213 /* Sources */,
+				BDEB50321EA2B9C90054F213 /* Frameworks */,
+				BDEB50331EA2B9C90054F213 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BDEB503B1EA2B9C90054F213 /* PBXTargetDependency */,
+			);
+			name = RanchForecastTests;
+			productName = RanchForecastTests;
+			productReference = BDEB50351EA2B9C90054F213 /* RanchForecastTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BDEB50111EA294640054F213 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Shilpa Bhat";
+				TargetAttributes = {
+					BDEB50181EA294640054F213 = {
+						CreatedOnToolsVersion = 8.3.1;
+						ProvisioningStyle = Automatic;
+					};
+					BDEB50341EA2B9C90054F213 = {
+						CreatedOnToolsVersion = 8.3.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BDEB50181EA294640054F213;
+					};
+				};
+			};
+			buildConfigurationList = BDEB50141EA294640054F213 /* Build configuration list for PBXProject "RanchForecast" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BDEB50101EA294640054F213;
+			productRefGroup = BDEB501A1EA294640054F213 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BDEB50181EA294640054F213 /* RanchForecast */,
+				BDEB50341EA2B9C90054F213 /* RanchForecastTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BDEB50171EA294640054F213 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDEB50211EA294640054F213 /* Assets.xcassets in Resources */,
+				BDEB50241EA294640054F213 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDEB50331EA2B9C90054F213 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BDEB50151EA294640054F213 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDEB502C1EA295520054F213 /* Course.swift in Sources */,
+				BDEB501F1EA294640054F213 /* ViewController.swift in Sources */,
+				BDEB502E1EA299270054F213 /* ScheduleFetcher.swift in Sources */,
+				BDEB501D1EA294640054F213 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDEB50311EA2B9C90054F213 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDEB50471EA2BF6C0054F213 /* CourseTests.swift in Sources */,
+				BDEB50381EA2B9C90054F213 /* RanchForecastTests.swift in Sources */,
+				BDEB50451EA2BF510054F213 /* ScheduleFetcherTests.swift in Sources */,
+				BDEB50421EA2BB2F0054F213 /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BDEB503B1EA2B9C90054F213 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BDEB50181EA294640054F213 /* RanchForecast */;
+			targetProxy = BDEB503A1EA2B9C90054F213 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BDEB50221EA294640054F213 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BDEB50231EA294640054F213 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BDEB50261EA294640054F213 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BDEB50271EA294640054F213 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		BDEB50291EA294640054F213 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = RanchForecast/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shilpa.RanchForecast;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		BDEB502A1EA294640054F213 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = RanchForecast/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shilpa.RanchForecast;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		BDEB503D1EA2B9C90054F213 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = RanchForecastTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shilpa.RanchForecastTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RanchForecast.app/Contents/MacOS/RanchForecast";
+			};
+			name = Debug;
+		};
+		BDEB503E1EA2B9C90054F213 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = RanchForecastTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shilpa.RanchForecastTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RanchForecast.app/Contents/MacOS/RanchForecast";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BDEB50141EA294640054F213 /* Build configuration list for PBXProject "RanchForecast" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDEB50261EA294640054F213 /* Debug */,
+				BDEB50271EA294640054F213 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDEB50281EA294640054F213 /* Build configuration list for PBXNativeTarget "RanchForecast" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDEB50291EA294640054F213 /* Debug */,
+				BDEB502A1EA294640054F213 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BDEB503C1EA2B9C90054F213 /* Build configuration list for PBXNativeTarget "RanchForecastTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDEB503D1EA2B9C90054F213 /* Debug */,
+				BDEB503E1EA2B9C90054F213 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BDEB50111EA294640054F213 /* Project object */;
+}
